@@ -17,6 +17,7 @@ def first_challenge
     i = 0
     value[i] == "strawberry"
     i += 1
+  end
   #your code here
 
 
