@@ -13,9 +13,10 @@ def first_challenge
     }
   }
 
-  contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if do |key, value|
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].each do |key, value|
     i = 0
-    value[i] == "strawberry"
+    if value[i] == "strawberry"
+      value[i].slice
     i += 1
   end
   #your code here
