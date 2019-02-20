@@ -13,7 +13,7 @@ def first_challenge
     }
   }
 
-  contacts["Freddy Mercury"][:favorite_icecream_flavors].each do |key, value|
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].each do |value|
     i = 0
     if value[i] == "strawberry"
       value[i].slice
