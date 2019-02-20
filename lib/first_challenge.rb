@@ -18,6 +18,7 @@ def first_challenge
     if value[i] == "strawberry"
       value[i].slice
     i += 1
+    end
   end
   #your code here
 
