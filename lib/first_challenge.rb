@@ -13,7 +13,10 @@ def first_challenge
     }
   }
 
-  contacts["Freddy Mercury"].delete_if {|key, value| value == "strawberry"}
+  contacts["Freddy Mercury"].delete_if do |key, value|
+    i = 0
+    value[i] == "strawberry"
+    i += 1
   #your code here
 
 
